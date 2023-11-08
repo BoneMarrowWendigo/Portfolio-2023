@@ -4,31 +4,31 @@
     box-sizing: border-box;
 
 }
-
 h1{
     font-size: 2rem;
     color: rgb(231, 136, 13);
 }
 
+p{
+    
+}
+
 .post {
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto;
+    flex-direction: row;
 }
 
 #post {
     border: 5px solid rgb(231, 136, 13);
     border-radius: 10px;
+    
 }
 
-.pfp {
-    display: flex;
-    align-items: flex-start;
-    width: 10;
-}
-
-#pfp {
-    border: 5px solid rgb(231, 136, 13);
-    border-radius: 100px;
+.pfp{
+    height:5rem;
+    border-radius: 50%;
+    border: 1rem
 }
